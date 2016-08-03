@@ -31,6 +31,7 @@
     "animate.css": "^3.4.0",
     "jquery": "^2.1.4",
     "normalize.css": "^3.0.3",
-    "swiper": "^3.2.7"
+    "swiper": "^3.2.7",
+    "jquery.loadtemplate": "^1.5.0"
   }
 }

@@ -1,19 +1,12 @@
-# wechat-h5-boilerplate
+# wechat-quiz-boilerplate
 
-> 「让制作H5像制作PPT一样简单！」
+> 本项目由 [Wechat-H5-Boilerplate][1] 改造而来,关于其详细介绍和使用方式请移步 [WHB说明文档][2]
 
-Wechat-H5-Boilerplate(以下简称WHB）是一个H5动效模板，专门为微信优化，适合快速构建全屏滚动型H5宣传页。
-
-![效果图][1]
-
-例如让一段文字动起来只需要一行代码：
-
-    <p class="animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">I'm a coder!</p>
-
+Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚至可以只填写一段json就完成游戏的开发。
 
 ## 目录
 
- - [实时预览](#实时预览)
+ - [效果预览](#效果预览)
  - [依赖列表](#依赖列表)
  - [项目结构](#项目结构)
  - [开发流程](#开发流程)
@@ -21,7 +14,7 @@ Wechat-H5-Boilerplate(以下简称WHB）是一个H5动效模板，专门为微�
  - [开发指南](#开发指南)
  - [待办事项](#待办事项)
 
-## 实时预览
+## 效果预览
 
 **使用手机**访问下面的地址或扫描下方二维码
 
@@ -34,6 +27,7 @@ Wechat-H5-Boilerplate(以下简称WHB）是一个H5动效模板，专门为微�
 2. [Animate.css][5] --> 用于提供CSS动画
 3. [jQuery][6] --> 用于操作DOM
 4. [Normalize.css][7] --> 用于CSS Reset
+5. [jquery-template](https://github.com/codepb/jquery-template) --> jQuery模版加载插件
 
 ## 项目结构
 
@@ -65,10 +59,8 @@ Wechat-H5-Boilerplate(以下简称WHB）是一个H5动效模板，专门为微�
 
     在控制台中运行：
 
-        git clone --depth=1 https://github.com/panteng/wechat-h5-boilerplate.git <your-project-name>
+        git clone --depth=1 https://github.com/panteng/wechat-quiz-boilerplate.git <your-project-name>
         cd <your-project-name>
-        
-    或者你也可以直接在[Release](https://github.com/panteng/wechat-h5-boilerplate/releases)页面下载WHB的源码压缩包。
 
 2. **安装第三方包**
 
@@ -245,8 +237,8 @@ Wechat-H5-Boilerplate(以下简称WHB）是一个H5动效模板，专门为微�
 [MIT][22]
 
 
-  [1]: https://raw.githubusercontent.com/panteng/wechat-h5-boilerplate/master/demo.jpg
-  [2]: http://panteng.me/demos/whb
+  [1]: https://github.com/panteng/wechat-h5-boilerplate
+  [2]: https://github.com/discountry/wechat-quiz-boilerplate/blob/master/README.md
   [3]: https://raw.githubusercontent.com/panteng/wechat-h5-boilerplate/master/QR-Code.png
   [4]: https://github.com/nolimits4web/swiper/
   [5]: https://github.com/daneden/animate.css

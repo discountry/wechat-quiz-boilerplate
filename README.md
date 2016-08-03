@@ -19,9 +19,9 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
 
 **使用手机**访问下面的地址或扫描下方二维码
 
-[http://panteng.me/demos/whb][2]
+[https://discountry.github.io/wechat-quiz-boilerplate](https://discountry.github.io/wechat-quiz-boilerplate)
 
-![此处输入图片的描述][3]
+![二维码][3]
 
 ## 依赖列表
 1. [Swiper][4] --> 用于实现页面的整屏滚动
@@ -60,9 +60,11 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
 
 ## 设置数据
 
-```json
+
 //questions.json
 //问题数目没有限制，答案默认为4个选项
+
+```json
 {"questions":[
   {
     "question": "Which animal has four legs?",//问题
@@ -83,8 +85,12 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
     "answer": "Cow"
   }
 ]}
+```
+
 //achievements.json
 //在游戏结果页面显示的信息
+
+```json
 {"achievements":[
   {
     "title": "John Snow",//成就名称
@@ -279,19 +285,13 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
 
     在开发过程中，如果你发现明明已经修改或替换了app/src文件下的图片、音频、字体等文件，但浏览器中的页面却没有做出相应改变的话，请尝试在控制台中重新运行`gulp dev`任务。
 
-## 待办事项
-1. 完善开发文档
-2. 优化动画效果
-3. 优化元素定位方式
-4. 增加更多Slide切换效果
-
 ## Lisence
 [MIT][22]
 
 
   [1]: https://github.com/panteng/wechat-h5-boilerplate
   [2]: https://github.com/discountry/wechat-quiz-boilerplate/blob/master/README.md
-  [3]: https://raw.githubusercontent.com/panteng/wechat-h5-boilerplate/master/QR-Code.png
+  [3]: https://raw.githubusercontent.com/discountry/wechat-quiz-boilerplate/master/QR-Code.png
   [4]: https://github.com/nolimits4web/swiper/
   [5]: https://github.com/daneden/animate.css
   [6]: https://github.com/jquery/jquery

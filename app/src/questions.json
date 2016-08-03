@@ -1,0 +1,20 @@
+{"questions":[
+  {
+    "question": "Which animal has four legs?",
+    "pic": "images/github-1.png",
+    "options": ["Pig","Fish","Duck","Chicken"],
+    "answer": "Pig"
+  },
+  {
+    "question": "Which animal has two hands?",
+    "pic": "images/github-2.png",
+    "options": ["Fox","Monkey","Cat","Dog"],
+    "answer": "Monkey"
+  },
+  {
+    "question": "Which animal has a tail?",
+    "pic": "images/github-3.png",
+    "options": ["Cow","Worm","Spider","Butterfly"],
+    "answer": "Cow"
+  }
+]}

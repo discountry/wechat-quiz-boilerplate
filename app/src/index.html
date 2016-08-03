@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wechat Quiz Boilerplate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- Add your keywords and description here for SEO. -->
+    <meta name="keywords" content="Wechat,Quiz">
+    <meta name="description" content="This is a simple Wechat H5 Quiz game.">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+    <!-- Uncomment this if you need apple touch icon. -->
+    <!--
+    <link rel="apple-touch-icon" href="touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="touch-icon-ipad-retina.png">
+    -->
+
+    <!-- Don't delete this. It's needed for development workflow. -->
+    <!-- inject:css -->
+    <!-- endinject -->
+</head>
+
+<body>
+<script type="text/html" id="result">
+    <div class="swiper-slide slide-5">
+        <div class="score" data-content="score"></div>
+        <div class="title" data-content="title"></div>
+        <div class="description" data-content="description"></div>
+        <a class="retry" href="/">Retry!</a>
+    </div>
+</script>
+<script type="text/html" id="success">
+    <div class="swiper-slide slide-6">
+        <div class="score" data-content="score"></div>
+        <div class="title" data-content="title"></div>
+        <div class="description" data-content="description"></div>
+        <a class="retry" href="/">Congratulations!</a>
+    </div>
+</script>
+<script type="text/html" id="play">
+    <div class="swiper-slide slide-4">
+    <div id="question">
+        <div class="question item-title" data-content="question"></div>
+        <img class="pic item-image" data-src="pic" />
+        <p class="first option item-text" data-content="optionA"></p>
+        <p class="second option item-text" data-content="optionB"></p>
+        <p class="third option item-text" data-content="optionC"></p>
+        <p class="fourth option item-text" data-content="optionD"></p>
+    </div>
+    </div>
+</script>
+
+<div class="loading-overlay">
+    <img src="images/loading.svg">
+</div>
+
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide slide-1">
+            <div class="item-image animated" data-ani-name="slideInLeft" data-ani-duration="1s" data-ani-delay="0s"></div>
+            <p class="item-text animated" data-ani-name="slideInRight" data-ani-duration="1s" data-ani-delay="0.3s">Take a Wild Guess!</p>
+        </div>
+        <div class="swiper-slide slide-2">
+            <div class="item-image animated" data-ani-name="bounceInDown" data-ani-duration="1s" data-ani-delay="0s"></div>
+            <p class="item-text animated" data-ani-name="bounceInUp" data-ani-duration="1s" data-ani-delay="0.3s">Choose the Right Animal!</p>
+        </div>
+        <div class="swiper-slide slide-3">
+            <div class="item-image animated" data-ani-name="flipInX" data-ani-duration="1s" data-ani-delay="0s"></div>
+            <a><p class="start-btn item-text animated" data-ani-name="flipInY" data-ani-duration="1s" data-ani-delay="0.3s">Start Game</p></a>
+        </div>
+    </div>
+</div>
+
+<button class="up-arrow">
+    <i class="icon-angle-double-up"></i>
+</button>
+
+<button class="btn-music">
+    <i class="icon-note"></i>
+</button>
+
+<audio loop>
+    <source src="audios/background.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Don't delete this. It's needed for development workflow. -->
+<!-- inject:js -->
+<!-- endinject -->
+
+</body>
+
+</html>

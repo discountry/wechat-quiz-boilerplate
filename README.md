@@ -9,6 +9,7 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
  - [效果预览](#效果预览)
  - [依赖列表](#依赖列表)
  - [项目结构](#项目结构)
+ - [设置数据](#设置数据)
  - [开发流程](#开发流程)
  - [发布流程](#发布流程)
  - [开发指南](#开发指南)
@@ -39,6 +40,8 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
                 /javascripts    --> 由app/src/javascripts下的文件经Browserify打包生成
                 /stylesheets    --> 由app/src/scss下的文件编译生成
                 index.html      --> 由app/src/index.html经Gulp-inject插入bundle.(min.).css和bundle.(min.).js后生成
+                questions.json    --> 由app/src/下的文件复制而来
+                achievements.json --> 由app/src/下的文件复制而来
             /src                --> 项目的源码，所有文件都可编辑
                 /audios         --> 存放音频、视频文件
                 /fonts          --> 存放字体文件
@@ -46,6 +49,8 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
                 /javascripts    --> JS源文件，经Browserify打包后生成app/dist/javascripts/bundle.js
                 /scss           --> SCSS文件，经过编译后生成app/dist/stylesheets/bundle.css
                 index.html      --> 页面HTML，经过Gulp-inject处理后生成app/dist/index.html
+                questions.json    --> 题目数据json
+                achievements.json    --> 成就数据json
         /config
             vendors.js          --> 第三方CSS、JS、Fonts列表，详见vendors.js说明
         .gitignore
@@ -53,13 +58,60 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
         package.json
         
 
+## 设置数据
+
+```json
+//questions.json
+//问题数目没有限制，答案默认为4个选项
+{"questions":[
+  {
+    "question": "Which animal has four legs?",//问题
+    "pic": "images/github-1.png",//问题图片
+    "options": ["Pig","Fish","Duck","Chicken"],//问题选项，默认为4项
+    "answer": "Pig"//问题答案
+  },
+  {
+    "question": "Which animal has two hands?",
+    "pic": "images/github-2.png",
+    "options": ["Fox","Monkey","Cat","Dog"],
+    "answer": "Monkey"
+  },
+  {
+    "question": "Which animal has a tail?",
+    "pic": "images/github-3.png",
+    "options": ["Cow","Worm","Spider","Butterfly"],
+    "answer": "Cow"
+  }
+]}
+//achievements.json
+//在游戏结果页面显示的信息
+{"achievements":[
+  {
+    "title": "John Snow",//成就名称
+    "description": "You know nothing!"//成就说明
+  },
+  {
+    "title": "Pig",
+    "description": "You are a Pig now!"
+  },
+  {
+    "title": "Monkey",
+    "description": "You are a Monkey now!"
+  },
+  {
+    "title": "Cow",
+    "description": "You are a Cow now!"
+  }
+]}
+```
+
 ## 开发流程
 
 1. **将本项目clone到本地**
 
     在控制台中运行：
 
-        git clone --depth=1 https://github.com/panteng/wechat-quiz-boilerplate.git <your-project-name>
+        git clone --depth=1 https://github.com/discountry/wechat-quiz-boilerplate.git <your-project-name>
         cd <your-project-name>
 
 2. **安装第三方包**

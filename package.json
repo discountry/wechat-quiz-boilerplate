@@ -1,12 +1,12 @@
 {
-  "name": "wechat-h5-boilerplate",
+  "name": "wechat-quiz-boilerplate",
   "version": "1.0.0",
-  "description": "A fullpage scrolling website boilerplate for mobile devices.",
+  "description": "A fullpage scrolling website boilerplate for wechat quiz game.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/panteng/wechat-h5-boilerplate.git"
+    "url": "git+https://github.com/discountry/wechat-quiz-boilerplate.git"
   },
-  "author": "Chris Pan",
+  "author": "Discountry",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.10.1",

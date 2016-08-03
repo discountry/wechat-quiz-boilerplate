@@ -61,8 +61,7 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
 ## 设置数据
 
 
-//questions.json
-//问题数目没有限制，答案默认为4个选项
+`questions.json` 问题数目没有限制，答案默认为4个选项
 
 ```json
 {"questions":[
@@ -87,8 +86,7 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
 ]}
 ```
 
-//achievements.json
-//在游戏结果页面显示的信息
+`achievements.json` 在游戏结果页面显示的信息，数组顺序对应答对题目数。
 
 ```json
 {"achievements":[

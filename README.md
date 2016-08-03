@@ -118,9 +118,7 @@ Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚�
         git clone --depth=1 https://github.com/discountry/wechat-quiz-boilerplate.git <your-project-name>
         cd <your-project-name>
 
-2. **安装第三方包**
-
-    WHB使用NPM管理第三方包    
+2. **安装第三方包**    
 
     在控制台中运行：
 

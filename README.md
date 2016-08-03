@@ -2,7 +2,7 @@
 
 > 本项目由 [Wechat-H5-Boilerplate][1] 改造而来,关于其详细介绍和使用方式请移步 [WHB说明文档][2]
 
-Wechat-quiz-Boilerplate 帮助你快速开发微信网页问答游戏，你甚至可以只填写一段json就完成游戏的开发。
+Wechat-quiz-boilerplate 帮助你快速开发微信网页问答游戏，你甚至可以只填写两段json就完成游戏的开发。
 
 ## 目录
 

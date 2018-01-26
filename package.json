@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "animate.css": "^3.4.0",
-    "jquery": "^2.1.4",
+    "jquery": "^3.0.0",
     "normalize.css": "^3.0.3",
     "swiper": "^3.2.7",
     "jquery.loadtemplate": "^1.5.0"

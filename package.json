@@ -1,0 +1,37 @@
+{
+  "name": "wechat-quiz-boilerplate",
+  "version": "1.0.0",
+  "description": "A fullpage scrolling website boilerplate for wechat quiz game.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discountry/wechat-quiz-boilerplate.git"
+  },
+  "author": "Discountry",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.10.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-inject": "^3.0.0",
+    "gulp-minify-css": "^1.2.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-uglify": "^1.5.1",
+    "partialify": "^3.1.5",
+    "run-sequence": "^1.1.5",
+    "stream-series": "^0.1.1"
+  },
+  "dependencies": {
+    "animate.css": "^3.4.0",
+    "jquery": "^3.0.0",
+    "normalize.css": "^3.0.3",
+    "swiper": "^3.2.7",
+    "jquery.loadtemplate": "^1.5.0"
+  }
+}

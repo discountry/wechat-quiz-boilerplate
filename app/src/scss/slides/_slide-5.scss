@@ -1,0 +1,49 @@
+.slide-5 {
+    background-color: #5cc2f1;
+    .score {
+        width: 18rem;
+        color: #e88a63;
+        font-size: 2rem;
+        font-weight: bold;
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .title {
+        width: 18rem;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 12rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .description {
+        width: 18rem;
+        color: #fff;
+        font-size: 1rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 14rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .retry {
+        width: 18rem;
+        color: #fff;
+        font-size: 2rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 20rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
